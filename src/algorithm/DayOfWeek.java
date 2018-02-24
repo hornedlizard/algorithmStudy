@@ -12,7 +12,7 @@ public class DayOfWeek {
 		int x = Integer.parseInt(input[0]);
 		int y = Integer.parseInt(input[1]);
 		
-		
+		// 월수
 		int[] months = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 		String[] dayOfWeek = {"mon", "tue", "wed", "thu", "fri", "sat", "sun"};		
 		int fullDaysMonth = x;
